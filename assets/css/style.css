@@ -106,30 +106,37 @@ nav ul li a:visited{
 }
 
 .banner1-text{
-    flex:4;
+    height: auto;
     background-color: #EDEEEF;
 }
 
-.banner1-text h2{
+.banner1-text-area{
+    padding: 50px 40px;
+    flex:4;
+}
+
+.banner1-text-area h2{
     font-size: 1.5em;
-    margin-left: 40px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-weight: 600;
 }
 
-.banner1-text p,
-.banner1-text a{
+.banner1-text-area p,
+.banner1-text-area a{
     font-size: 18px;
-    margin-left: 40px;
-    margin-right: 40px;
     margin-bottom: 40px;
     line-height: 35px;
 }
 
-.banner1-text p{
+
+.banner1-text-area p{
+    margin-top: 0px;
     color: #666;
     font-weight: 400;
+}
+
+.banner1-text-area a{
+    margin-bottom: 20px;
 }
 
 .features{
