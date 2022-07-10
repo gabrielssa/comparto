@@ -98,6 +98,7 @@ nav ul li a:visited{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 .banner1-image{
@@ -129,4 +130,30 @@ nav ul li a:visited{
 .banner1-text p{
     color: #666;
     font-weight: 400;
+}
+
+.features{
+    background-color: #9999CC;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.features img{
+    display: block;
+    margin: auto;
+}
+
+.feature img{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.features p{
+    font-size: 18px;
+    width: 70%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 60px;
 }
